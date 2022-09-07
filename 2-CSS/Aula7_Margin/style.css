@@ -1,0 +1,14 @@
+body {
+    background-color: #e7e5e7;
+}
+
+p {
+    color: #2c2c2c;
+}
+
+.foto-perfil {
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    margin: 20px 20px 10px 20px;
+}

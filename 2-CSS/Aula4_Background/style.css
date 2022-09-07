@@ -1,0 +1,12 @@
+body {
+    background-image: url(background.jpeg);
+    background-attachment: fixed;
+}
+
+p {
+    color: #2c2c2c;
+}
+
+.foto-perfil {
+    width: 150px;
+}
