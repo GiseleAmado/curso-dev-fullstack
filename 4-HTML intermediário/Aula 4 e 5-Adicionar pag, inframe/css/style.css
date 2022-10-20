@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    margin-bottom: 15px;
+}
+
+.header {
+    background-image: url(../img/graos.jpg);
+    background-size: cover;
+    color: #3C1300;
+    text-align: center;
+    padding: 30px 0;
+    font-size: 30px;
+    box-shadow: 0 0 15px #3C1300;
+    margin-bottom: 15px;
+}
+
+.header img {
+    width: 120px;
+}
+
+.container {
+    display: flex;
+}
+
+.navbar {
+    width: 20%;
+    padding: 30px;
+    background-color: #ffffff
+}
+
+.navbar li {
+    margin: 10px 0;
+    list-style: none;
+}
+
+.navbar li a {
+    display: block;
+    background-color: #3C1300;
+    border-radius: 5px;
+    box-shadow: 2px 0 6px #713c24;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #f5e8dc;
+}
+
+.content {
+    width: 80%;
+    background-color: #f5e8dc;
+    padding: 30px;
+    color: #3C1300;
+    margin: 10px 20px 0 0;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 2px 0 10px #b39c91;
+}
+
+.content img {
+    width: 300px;
+    margin-bottom: 15px;
+}
+
+.footer {
+    background-color: #3C1300;
+    text-align: center;
+    font-size: 14px;
+    color: #f5e8dc; 
+    padding: 8px 0;
+}
